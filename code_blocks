@@ -1,0 +1,9 @@
+# List comprehension
+
+# Instead of doing:
+squares = []
+for i in range(10):
+  squares.append(i*i)
+  
+# do this instead
+squares = [i*i for i in range(10)]
